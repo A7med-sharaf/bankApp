@@ -87,6 +87,7 @@
                     <th>Lot type</th>
                     <th>Lot value</th>
                     <th>After blance</th>
+                    <th>---</th>
                     
                 </tr>
             </thead>
@@ -145,8 +146,8 @@ function renderobjet() {
             <td>${el.LogType}</td>
             <td>${el.Logvalue}</td>
             <td>${el.afterblance}</td>
-            <td>
-                <button class="btn btn-warning" onclick="editRow(${index})">Edit</button>
+            <td class="d-flex gap-3 ">
+                <button class="btn btn-warning" onclick="editRow(${index})">Edit</button> 
                 <button class="btn btn-danger" onclick="deleteRow(${index},${el.beforblance})">Del</button>
             </td>
         </tr>
