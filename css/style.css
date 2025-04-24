@@ -1,8 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
+    width: 100%;
  height: 260vh;
 }
 
-
+.banner-image{
+    background-image: url(img/pexels-eberhard-grossgasteiger-629162.jpg);
+    height: 50vh;
+    background-size: cover;
+}
 .theme-text{
     color: red;
     font-size: 30px;
