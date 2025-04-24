@@ -40,7 +40,7 @@
         </nav>
 
 
-        <div id="carouselExampleIndicators" class="carousel slide  col-12   m-auto">
+        <div id="carouselExampleIndicators" class="carousel slide  col-12  m-auto" style="border: 2px solid red;">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -48,13 +48,13 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./img/photo-1501167786227-4cba60f6d58f.jpg" height="610px" class="d-block w-100" alt="...">
+                <img src="./img/photo-1501167786227-4cba60f6d58f.jpg" height="610px" width="100%" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./img/pexels-jonathanborba-13807424.jpg" height="610px" class="d-block w-100" alt="...">
+                <img src="./img/pexels-jonathanborba-13807424.jpg" height="610px" width="100%" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./img/pexels-julio-lopez-75309646-29502367.jpg" height="610px" class="d-block w-100" alt="...">
+                <img src="./img/pexels-julio-lopez-75309646-29502367.jpg" height="610px" width="100%" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -69,7 +69,7 @@
 
 
 
-          <div class="col-xs-12 col-12 col-sm-6 col-md-3   container card d-flex gap-2 p-2" style="margin-top: 10rem; width: 25rem;">
+          <div class="col-12 col-sm-6 col-md-3   container card d-flex gap-2 p-2" style="margin-top: 10rem; width: 25rem;">
             <h3>your blance is :<b>0</b></h3>
             <input class="form-control" id="inputval" type="number" placeholder="inter the Amount">
             <div class="d-flex gap-2 justify-content-center">
@@ -79,7 +79,7 @@
         </div>
     
     
-        <table class="container table table-bordered mt-5">
+        <table class="col-12 col-sm-6 col-md-3   container table table-bordered mt-5">
             <thead>
                 <tr>
                     <th>-</th>
@@ -140,7 +140,7 @@ function renderobjet() {
     table.innerHTML = "";
     objdata.forEach((el, index) => {
         table.innerHTML += ` 
-        <tr>
+        <tr >
             <td>${index + 1}</td>
             <td>${el.beforblance}</td>
             <td>${el.LogType}</td>
