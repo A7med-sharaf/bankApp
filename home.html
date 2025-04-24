@@ -40,7 +40,7 @@
         </nav>
 
 
-        <div id="carouselExampleIndicators" class="carousel slide  col-12 col-sm-6 col-md-3  ">
+        <div id="carouselExampleIndicators" class="carousel slide  col-12   m-auto">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -146,7 +146,7 @@ function renderobjet() {
             <td>${el.LogType}</td>
             <td>${el.Logvalue}</td>
             <td>${el.afterblance}</td>
-            <td class="d-flex gap-3 ">
+            <td class="d-flex flex-column ">
                 <button class="btn btn-warning" onclick="editRow(${index})">Edit</button> 
                 <button class="btn btn-danger" onclick="deleteRow(${index},${el.beforblance})">Del</button>
             </td>
