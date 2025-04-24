@@ -34,8 +34,14 @@ submit.addEventListener("click", function(event){
   .then((userCredential) => {
     // Signed up 
     const user = userCredential.user;
-    alert("Login ...")
-    window.location.href="home.html"
+    
+        alert("Login ...")
+       window.location.href="home.html"
+        // let Utext=document.querySelector(".text")
+        // let theme=document.querySelector(".theme-text")
+        // theme.innerHTML=Utext
+    
+    
     // ...
   })
   .catch((error) => {

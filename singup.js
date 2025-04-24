@@ -25,8 +25,8 @@
      
 submit.addEventListener("click", function(event){
     event.preventDefault()
-    let email=document.querySelector("#email").value
-    let password=document.querySelector("#password").value
+    let email=document.querySelector("#emailV").value
+    let password=document.querySelector("#passwordV").value
    
     
     createUserWithEmailAndPassword (auth, email, password)
@@ -34,7 +34,7 @@ submit.addEventListener("click", function(event){
     // Signed up 
     const user = userCredential.user;
     alert("Success create Account ...")
-    
+   
     // ...
   })
   .catch((error) => {
@@ -45,5 +45,5 @@ submit.addEventListener("click", function(event){
   });
 
 })     
- let text=document.querySelector("#text").value
+//  let text=document.querySelector("#text").value
 
