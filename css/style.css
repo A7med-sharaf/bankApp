@@ -1,0 +1,29 @@
+body{
+ height: 260vh;
+}
+
+
+.theme-text{
+    color: red;
+    font-size: 30px;
+   
+}
+
+.space{
+
+ margin: 5px;
+}
+    
+.nav-link{
+    font-size: 19px;
+}
+
+.navbar-item :hover{
+    
+   border: 0px solid rgb(223, 173, 173);
+   border-radius: 6px;
+   background-color: rgb(211, 114, 114);
+     
+}
+
+
