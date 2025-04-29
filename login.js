@@ -7,12 +7,13 @@
   
     // Your web app's Firebase configuration
     const firebaseConfig = {
-      apiKey: "AIzaSyCSvZ5bcy7UQB7WCBK900sqgQckK0XIGEc",
-      authDomain: "portfolio-a0e3c.firebaseapp.com",
-      projectId: "portfolio-a0e3c",
-      storageBucket: "portfolio-a0e3c.firebasestorage.app",
-      messagingSenderId: "393845999476",
-      appId: "1:393845999476:web:615ed0891f7d8ea08fce21"
+      apiKey: "AIzaSyCcW2KlHzEl8lyzsmc97shZYQY_yg6LvIM",
+      authDomain: "system-bank-39989.firebaseapp.com",
+      databaseURL: "https://system-bank-39989-default-rtdb.firebaseio.com",
+      projectId: "system-bank-39989",
+      storageBucket: "system-bank-39989.firebasestorage.app",
+      messagingSenderId: "403628476845",
+      appId: "1:403628476845:web:886d4c2106ecf232ef7924"
     };
   
     // Initialize Firebase
@@ -47,7 +48,7 @@ submit.addEventListener("click", function(event){
   .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
-    alert(errorMessage)
+    alert("error email or password")
     // ..
   });
 
