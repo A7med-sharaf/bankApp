@@ -32,8 +32,17 @@ body {
     border: 1px solid #ccc;
     border-radius: 8px;
   }
+  #signInForm{
+    text-align: center;
+  }
+
+  #signUpForm{
+    text-align: center;
+  }
   button {
-    width: 100%;
+    text-align: center;
+    border: 1px solid red;
+    width: 70%;
     padding: 10px;
     background-color: #007bff;
     color: white;
@@ -50,4 +59,14 @@ body {
   }
   .hidden {
     display: none;
+  }
+
+  @media screen and (max-width:767px) {
+    #signInForm{
+      width: 100%;
+    }
+    #signUpForm{
+      width: 100%;
+    }
+    
   }
