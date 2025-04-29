@@ -18,7 +18,7 @@ body {
     border-radius: 12px;
     padding: 30px;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    width: 300px;
+    width: 25%;
     transition: all 0.3s ease-in-out;
   }
   h2 {
@@ -33,10 +33,12 @@ body {
     border-radius: 8px;
   }
   #signInForm{
+    width: 100%;
     text-align: center;
   }
 
   #signUpForm{
+    width: 100%;
     text-align: center;
   }
   button {
